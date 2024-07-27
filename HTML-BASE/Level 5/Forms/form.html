@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/contact-me.php">
+      <label for="email">Username:</label>
+      <input
+        type="text"
+        id="email"
+        name="username"
+        value="John"
+        placeholder="john"
+        autocomplete="email"
+      /><br />
+
+      <label for="passkey">Password:</label>
+      <input type="password" id="passkey" /><br />
+
+      <label for="date_id">Date:</label>
+      <input type="date" id="date_id" /><br />
+
+      <label for="file_id">File:</label>
+      <input type="file" name="file" id="file_id" /><br />
+
+      Color: <input type="color" name="" id="" /><br />
+
+      Price range:
+      <input type="range" name="" id="" min="100" max="20503" /><br />
+
+      Gender: <br />
+      <label for="male_id">male</label>
+      <input type="radio" name="gender" id="male_id" value="male" />
+
+      <label for="female_id">female</label>
+      <input type="radio" name="gender" id="female_id" value="female" />
+
+
+      other: <input type="radio" name="gender" id="trans" value="trans" /><br />
+
+      Which languages do u know: <br>
+
+      <label for="HTML_id">HTML</label>
+      <input type="checkbox" name="lang" id="HTML_id"><br>
+      <label for="CSS_id">CSS</label>
+      <input type="checkbox" name="lang" id="CSS_id"><br>
+      <label for="JS_id">JS</label>
+      <input type="checkbox" name="lang" id="JS_id"><br>
+
+        <label for="country_id">Country</label>
+      <select name="country" id="country_id">
+      <option value="india">India</option>
+      <option value="Germany">Germany</option>
+      <option value="US">US</option>
+      <option value="Australia">Australia</option>
+      </select><br>
+      <label for="desc_id">Description about u</label><br>
+      <textarea name="description" id="desc_id" rows="4" cols="20">//please write about ur interests and learnings//</textarea><br>
+
+      <input type="button" value="click me for fun" />
+
+      <input type="submit" name="" id="" />
+    </form>
+  </body>
+</html>
